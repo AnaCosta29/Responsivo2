@@ -20,8 +20,6 @@ header,.sobreMim{
     -o-background-size: cover;
     background-size: cover;
         
-     
-   
 }
  ul {
     display: flex;
@@ -30,7 +28,7 @@ header,.sobreMim{
     justify-content: space-around;
     text-transform: uppercase;
     height: 10vh;
-    font-size:20px;
+    font-size:15px;
     margin-left: 50%; 
 }
 ul > li {
@@ -71,6 +69,30 @@ body{
 .seta_img{
     width: 2%;
 }
+/* exercicios javascript accordion */
+.seta {
+   
+    padding: 18px;
+    width: 2%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+ .text {
+    padding: 20px 18px;
+    display: none;
+    overflow: hidden;
+  
+  }
+  
+  .p_text{
+      color: black;
+      text-transform: lowercase;
+      font-size: 0.8em;
+  }  
+
 .projetos_title,  .titles{
     color: rgb(148, 146, 146);
     text-align: center;
@@ -158,7 +180,7 @@ body{
     background-color: rgb(18, 18, 19);
     justify-content: space-around;
     font-size: 1.2rem;
-    padding: 10px;
+    padding: 5px;
     color: rgb(10, 15, 15);
 }
 
